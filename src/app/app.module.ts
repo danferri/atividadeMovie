@@ -1,20 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http'; // Importação do HttpClientModule
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
-import { MovieComponent } from './movie/movie.component'; // Importação do MovieComponent
+import { MovieComponent } from './movie/movie.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MovieComponent // Declaração do MovieComponent
+    MovieComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule // Adição do HttpClientModule à lista de imports
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
