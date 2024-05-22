@@ -1,0 +1,41 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+  
+  .movie {
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+  
+  .movie img {
+    width: 100%;
+    border-radius: 8px;
+}
+  
+  .movie h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+  
+  .movie p {
+    font-size: 0.9em;
+    color: #666;
+}
+  

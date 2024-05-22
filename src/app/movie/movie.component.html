@@ -1,0 +1,14 @@
+<div class="container" *ngIf="movies.length">
+    <h2>Filmes em Cartaz</h2>
+    <div class="movies">
+      <div class="movie" *ngFor="let movie of movies">
+        <img [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path" alt="{{ movie.title }} poster">
+        <h3>{{ movie.title }}</h3>
+        <p>{{ movie.overview }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="container" *ngIf="!movies.length">
+    <p>Não há filmes em cartaz no momento.</p>
+</div>
+  
